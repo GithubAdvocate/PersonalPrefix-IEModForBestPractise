@@ -1,0 +1,12 @@
+BACKUP ~PersonalPrefix-IEModForBestPractise/backup~
+
+SUPPORT "http://www.YouModForum.com/forums/IEModForBestPractiseTopic" //  instead of email, use forum thread where other people might be able to help
+
+// Use Semantic Versioning http://semver.org
+VERSION ~0.0.1~
+
+BEGIN 100 ~Component 1~
+DESIGNATED 100 // start with 100 even if you have one component
+LABEL ~PersonalPrefix-IEModForBestPractise-Component01~
+
+COPY ~PersonalPrefix-IEModForBestPractise/itm/Item01.ITM~ ~override~
