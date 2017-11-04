@@ -9,4 +9,4 @@ BEGIN 100 ~Component 1~
 DESIGNATED 100 // start with 100 even if you have one component
 LABEL ~PersonalPrefix-IEModForBestPractise-Component01~
 
-COPY ~PersonalPrefix-IEModForBestPractise/itm/Item01.ITM~ ~override~
+COPY ~PersonalPrefix-IEModForBestPractise/itm/Item01.itm~ ~override~
