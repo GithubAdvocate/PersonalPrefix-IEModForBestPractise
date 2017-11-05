@@ -1,12 +1,20 @@
+// You don't have to include empty /backup directory inside mod archive
 BACKUP ~PersonalPrefix-IEModForBestPractise/backup~
 
-SUPPORT "http://www.YouModForum.com/forums/IEModForBestPractiseTopic" //  instead of email, use forum thread where other people might be able to help
+// instead of email, use forum thread where other people might be able to help
+SUPPORT "http://www.webpage.com/forums/IEModForBestPractise-Topic" 
 
 // Use Semantic Versioning http://semver.org
-VERSION ~0.0.1~
+VERSION ~0.0.1~ 
 
-BEGIN 100 ~Component 1~
-DESIGNATED 100 // start with 100 even if you have one component
-LABEL ~PersonalPrefix-IEModForBestPractise-Component01~
+BEGIN ~Component 1~
+// start with 100 even if you have one component!
+DESIGNATED 100
 
-COPY ~PersonalPrefix-IEModForBestPractise/itm/Item01.itm~ ~override~
+PRINT "Component 1"
+
+BEGIN ~Component 2~
+// second component start with 200, not 101!
+DESIGNATED 200 
+
+PRINT "Component 2"
